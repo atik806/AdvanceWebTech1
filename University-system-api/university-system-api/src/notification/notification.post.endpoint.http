@@ -1,0 +1,17 @@
+POST http://localhost:3000/notification/sent
+Content-Type: application/json
+
+{
+  "studentName": "John Doe",
+  "message": "Welcome!"
+}
+
+###
+
+POST http://localhost:3000/notification/check
+Content-Type: application/json
+
+{
+  "studentName": "John Doe",
+  "courseId": 101
+}

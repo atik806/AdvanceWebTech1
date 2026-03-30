@@ -1,0 +1,11 @@
+POST http://localhost:3000/course
+Content-Type: application/json
+
+{   
+    "name": "NestJS",
+    "code": "CS301",
+    "description": "An introductory course to computer science concepts.",
+    "credits": 3
+}
+
+
