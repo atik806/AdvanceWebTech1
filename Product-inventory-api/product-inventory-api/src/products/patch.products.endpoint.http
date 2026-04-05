@@ -35,3 +35,10 @@ Content-Type: application/json
 {
     "available": true
 }
+
+PATCH http://localhost:3000/products/3/toggle-availability  
+Content-Type: application/json
+
+{
+    "available": false
+}
