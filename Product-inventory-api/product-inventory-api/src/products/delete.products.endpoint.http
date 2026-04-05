@@ -1,0 +1,4 @@
+DELETE http://localhost:3000/products/4
+
+GET http://localhost:3000/products/4
+
