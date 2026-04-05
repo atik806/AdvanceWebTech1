@@ -1,0 +1,40 @@
+POST http://localhost:3000/products
+Content-Type: application/json  
+
+{
+    "name": ,
+    "description": "A spacious and durable tent for camping trips",
+    "price": 199.99,
+    "stock": 20,
+    "category": "Outdoor"
+}
+
+GET http://localhost:3000/products
+
+
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "Camping Tent",
+    "description": "A spacious and durable tent for camping trips",
+    "price": -5,
+    "stock": 20,
+    "category": "Outdoor"
+}
+
+
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "Camping Tent",
+    "description": "A spacious and durable tent for camping trips",
+    "price": 199.99,
+    "stock": 20,
+    "category": "Outdoor",
+    "x" : "invalid"
+}
+
+
+POST http://localhost:3000/products
