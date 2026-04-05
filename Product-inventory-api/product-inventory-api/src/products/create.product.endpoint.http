@@ -1,0 +1,11 @@
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "Torch",
+    "description": "A reliable torch for outdoor adventures",
+    "price": 19.99,
+    "stock": 200,
+    "category": "Electronics"
+}
+

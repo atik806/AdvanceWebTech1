@@ -1,0 +1,37 @@
+PATCH http://localhost:3000/products/1
+Content-Type: application/json
+
+{
+    "name": "Updated Torch",
+    "description": "A reliable torch for outdoor adventures (Updated)",
+    "price": 899.99,
+    "stock": 45,
+    "category": "Outdoor"
+}
+
+PATCH http://localhost:3000/products/12
+
+PUT http://localhost:3000/products/1
+Content-Type: application/json
+
+{
+    "name": "Iphone 15 pro",
+    "description": "A reliable torch for outdoor adventures (Updated)",
+    "price": 1099.99,
+    "stock": 30,
+    "category": "Electronics"
+}   
+
+PUT http://localhost:3000/products/12
+Content-Type: application/json
+
+{
+    price: 799.99
+}
+
+PATCH http://localhost:3000/products/1/toggle-availability
+Content-Type: application/json
+
+{
+    "available": true
+}
